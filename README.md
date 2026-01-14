@@ -1,4 +1,4 @@
-# mysql-backup
+# MongoDB-backup
 ##
 Routine backup of mysql and routine cleanup scripts
 ##
