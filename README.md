@@ -26,3 +26,11 @@ always keep last 2(adjustable) and delete all.
 
 if new backup is off, still it will keep last 2 backup files.
 
+##Add script to crontab for routine backup
+crontab -e
+##
+5 0 * * * /usr/bin/python3 /home/<user>/delete-collection.py
+
+45 23 * * * /usr/bin/python3 /home/<user>/dump-mongo.py
+
+
